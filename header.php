@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<?php  ?>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,9 @@
 <body>
     
     <header class="header text-center">	    
-	    <a class="site-title pt-lg-4 mb-0" href="index.html">SiteName.dev</a>
+	    <a class="site-title pt-lg-4 mb-0" href="index.html">
+			<?php echo get_bloginfo('name'); ?>
+		</a>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
